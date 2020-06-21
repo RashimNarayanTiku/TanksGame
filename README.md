@@ -27,3 +27,6 @@ The closer the shot, the more damage is incurred.
 ![WinScreen](https://github.com/RashimNarayanTiku/TanksGame/tree/master/demo/win.png)
 
 
+## Credits
+* Intro music from [knarmahfox](https://freesound.org/people/knarmahfox/sounds/99699/)
+* You Lose and You Win sounds from [EFlexMusic](https://freesound.org/people/EFlexMusic/sounds/418326/)
