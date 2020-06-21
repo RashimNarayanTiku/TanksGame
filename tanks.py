@@ -46,9 +46,7 @@ clock = pygame.time.Clock()
 
 explosionSound = pygame.mixer.Sound('audio/small-explosion.aiff')
 youWin = pygame.mixer.Sound('audio/youWin.wav')
-youLose = pygame.mixer.Sound('audio/youLose.wav')               
-            
-                                    ## REMEMBER TO GIVE CREDITS
+youLose = pygame.mixer.Sound('audio/youLose.wav')            
 background = pygame.image.load('tankImage.jpg')
  
 backgroundRect = background.get_rect()
@@ -68,7 +66,6 @@ veryLargeFont = pygame.font.SysFont('impact',100)
 #  ALSO, DIDN'T USE OBJECT ORIENTED APPROACH      \\//
 #  BUT ATLEAST I MADE IT!!!                        \/
 
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    PUT TO GITHUB    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
@@ -320,7 +317,6 @@ def fire(displayHeight,displayWidth,loc,tankX,tankY,tankWidth,
     while fire:
 
         # If bullet hit ground or target
-        # subtracted 10 for more realistic ground collision
         if startShellPos[1] >= groundHeight-10:      
             if enemyTankX+15 > startShellPos[0] > enemyTankX-15: 
                 damage = 20
@@ -464,11 +460,8 @@ def controlScreen():
     ''' shows the controls of the game'''
     showControl = True
 
-    # gameDisplay.fill(white)
     gameDisplay.blit(background,backgroundRect)
      
-
-
     messageToScreen('Controls', red, y_disp=-50, size = 'large')
     messageToScreen('Fire: Space',black, y_disp=20,size='small', background="white")
     messageToScreen('Move Turret: Up and Down arrows', black, y_disp=50,size='small', background="white")
@@ -488,6 +481,7 @@ def controlScreen():
             showControl = False
 
         pygame.display.update()
+
 
 def tutorialScreen():
     ''' Displays the tutorial to play the game '''
@@ -552,6 +546,7 @@ def WonScreen(showIntro):
     return showIntro
 
 
+
 def LostScreen(showIntro):
     ''' The Lost screen '''
     pygame.mixer.music.set_volume(0.2)
@@ -583,6 +578,8 @@ def LostScreen(showIntro):
         clock.tick(FPS)
     pygame.mixer.music.set_volume(0.7)
     return showIntro
+
+
 
 def levelScreen():
     started = True
@@ -744,6 +741,7 @@ def gameLoop(showIntro, gameLevel=3):
                     # Enemy movement (Artificial Intelligence)
                     enemyFirePower = firePower
                     shotDone = False
+                    
                     # The higher the difficulty, the more chances for the enemy
                     chances = gameLevel
 
