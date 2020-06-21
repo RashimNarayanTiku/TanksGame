@@ -49,6 +49,8 @@ youWin = pygame.mixer.Sound('audio/youWin.wav')
 youLose = pygame.mixer.Sound('audio/youLose.wav')            
 background = pygame.image.load('tankImage.jpg')
  
+ICON = pygame.image.load('iconfinder_tank_4920729.png')
+pygame.display.set_icon(ICON)
 backgroundRect = background.get_rect()
 backgroundRect.center = (displayHeight//2+100,displayWidth//2-100)
 
