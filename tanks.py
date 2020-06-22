@@ -4,7 +4,6 @@
 # 2. buttons function
 # 3. Bullet graphics
 #-------------------------------------------
-# MY CONTRIBUTION
 # Changed the game working structure
 # Added extra enemy movements and better AI
 # Added Game levels
