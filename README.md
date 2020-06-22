@@ -7,7 +7,7 @@
 1. The closer the shot, the more damage is incurred.
 
 ## Playing the Game
-Download [TanksGame.zip](https://github.com/RashimNarayanTiku/TanksGame/blob/master/TanksGame.zip) and run *tanks.exe*.
+Download and unzip [TanksGame.zip](https://github.com/RashimNarayanTiku/TanksGame/blob/master/TanksGame.zip) and run *tanks.exe*.
 
 &ensp;
 
