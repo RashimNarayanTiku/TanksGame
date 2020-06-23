@@ -16,20 +16,26 @@ Download and unzip [TanksGame.zip](https://github.com/RashimNarayanTiku/TanksGam
 ## Game Intro
 ![GameIntro](demo/intro.png "Game Intro")
 
+&ensp;
+&ensp;
+
 ## Level Screen
 ![LevelScreen](demo/level.png "Level Screen")
 
+&ensp;
 
 ## GamePlay
 ![GamePlay](demo/play.png)
 
-
 ![GamePlay2](demo/play2.png)
 
+&ensp;
 
 ## Paused Screen
 ![PausedScreen](demo/paused.png)
 
+&ensp;
+&ensp;
 
 ## Win Screen
 ![WinScreen](demo/win.png)
@@ -39,4 +45,4 @@ Download and unzip [TanksGame.zip](https://github.com/RashimNarayanTiku/TanksGam
 # Credits
 * Intro music from [knarmahfox](https://freesound.org/people/knarmahfox/sounds/99699/)
 * You Lose and You Win sounds from [EFlexMusic](https://freesound.org/people/EFlexMusic/sounds/418326/)
-* Icon by [albabilham](https://www.iconfinder.com/albabilham)
+* Game icon by [albabilham](https://www.iconfinder.com/albabilham)
